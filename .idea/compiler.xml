@@ -6,11 +6,41 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="itheima_spring_ioc_anno" />
+        <module name="itheima_spring_test" />
+        <module name="itheima_mybatis_config" />
+        <module name="itheima_spring_tx" />
+        <module name="itheima_ssm" />
+        <module name="itheima_spring_intercepter" />
+        <module name="itheima_mybatis_mapper" />
+        <module name="itheima_mybatis_multi" />
+        <module name="itheima_mybatis_anno" />
+        <module name="itheima_mybatis_quick" />
+        <module name="itheima_spring_exception" />
+        <module name="itheima_spring_mvc" />
         <module name="itheima_spring_ioc" />
+        <module name="itheima_spring_jdbc" />
+        <module name="itheima_spring_aop" />
+        <module name="itheima_mybatis_dao" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="16">
+    <bytecodeTargetLevel target="8">
+      <module name="itheima_mybatis_anno" target="16" />
+      <module name="itheima_mybatis_config" target="16" />
+      <module name="itheima_mybatis_dao" target="16" />
+      <module name="itheima_mybatis_mapper" target="16" />
+      <module name="itheima_mybatis_multi" target="16" />
+      <module name="itheima_mybatis_quick" target="16" />
+      <module name="itheima_spring_aop" target="16" />
+      <module name="itheima_spring_exception" target="16" />
+      <module name="itheima_spring_intercepter" target="16" />
       <module name="itheima_spring_ioc" target="16" />
+      <module name="itheima_spring_ioc_anno" target="16" />
+      <module name="itheima_spring_jdbc" target="16" />
+      <module name="itheima_spring_mvc" target="16" />
+      <module name="itheima_spring_test" target="16" />
+      <module name="itheima_spring_tx" target="16" />
+      <module name="itheima_ssm" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
